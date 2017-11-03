@@ -1,39 +1,16 @@
-
-In this exercise, you will implement
-the function `count_objects` for which
-you wrote tests in the previous
-exercise.
-
-The code for this function should be placed
-in a file called `counting.py`
-in the `micro` directory:
-
-```shellsession
-micro/
-├── micro/
-│   ├── counting.py
-│   ├── __init__.py
-├── README.md
-├── LICENSE.md
-├── setup.py
-└── tests
-    └── test_counting.py
-
-```
-
-The required functions `external_match` and `internal_match`
-are already provided to you.
-
-```python
 import numpy as np
-
-
+   
 def count_objects(img):
-    # ------ YOUR CODE HERE ------ #
-
-
-
-    # ---------------------------- #
+    ny, nx = img.shape
+    E = 0
+    I = 0
+    for i in range(nx-1):
+        for j in range(ny-1):
+            if external_match(img[i:i+2, j:j+2]):
+                E += 1
+            if internal_match(img[i:i+2, j:j+2]):
+                I += 1
+    return (E - I)/4
 
 def external_match(a):
     """
