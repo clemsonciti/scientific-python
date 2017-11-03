@@ -21,19 +21,38 @@ micro/
 
 ```
 
-The required functions `external_match` and `internal_match`
-are already provided to you.
+The function implementation is given below,
+but the code involves calls to two
+helper functions `external_match`
+and `internal_match`. Your task is to write the
+code for these functions.
+
+As a hint, you can use the `np.all` function
+to check for the equality of two numpy
+arrays:
+
+```
+# returns True if all elements of a are equal
+# to the corresponding elements of b.
+# returns False otherwise:
+np.all(a == b) 
+```
 
 ```python
 import numpy as np
 
 
 def count_objects(img):
-    # ------ YOUR CODE HERE ------ #
-
-
-
-    # ---------------------------- #
+    ny, nx = img.shape
+    E = 0
+    I = 0
+    for i in range(nx-1):
+        for j in range(ny-1):
+            if external_match(img[i:i+2, j:j+2]):
+                E += 1
+            if internal_match(img[i:i+2, j:j+2]):
+                I += 1
+    return (E - I)/4
 
 def external_match(a):
     """
@@ -60,15 +79,12 @@ def external_match(a):
 
     True or False
     """
-    masks = [np.array([[0, 0], [0, 1]]),
-             np.array([[0, 0], [1, 0]]),
-             np.array([[1, 0], [0, 0]]),
-             np.array([[0, 1], [0, 0]])]
-    
-    for mask in masks:
-        if np.all(a == mask):
-            return True
-    return False
+    # ------ YOUR CODE HERE ------ #
+
+
+
+    # ---------------------------- #
+
 
 def internal_match(a):
     """
@@ -95,23 +111,9 @@ def internal_match(a):
 
     True or False
     """
+    # ------ YOUR CODE HERE ------ #
 
-    masks = [np.array([[0, 0], [0, 1]]),
-             np.array([[0, 0], [1, 0]]),
-             np.array([[1, 0], [0, 0]]),
-             np.array([[0, 1], [0, 0]])]
-    
-    for mask in masks:
-        if np.all(a == mask):
-            return True
-    return False
-    masks = [np.array([[1, 1], [1, 0]]),
-             np.array([[1, 1], [0, 1]]),
-             np.array([[0, 1], [1, 1]]),
-             np.array([[1, 0], [1, 1]])]
-    
-    for mask in masks:
-        if np.all(a == mask):
-            return True
-    return False
+
+
+    # ---------------------------- #
 ```
