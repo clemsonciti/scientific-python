@@ -82,13 +82,4 @@ def internal_match(a):
         if np.all(a == mask):
             return True
     return False
-    masks = [np.array([[1, 1], [1, 0]]),
-             np.array([[1, 1], [0, 1]]),
-             np.array([[0, 1], [1, 1]]),
-             np.array([[1, 0], [1, 1]])]
-    
-    for mask in masks:
-        if np.all(a == mask):
-            return True
-    return False
 ```
