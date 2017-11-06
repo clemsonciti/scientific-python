@@ -79,6 +79,21 @@ def external_match(a):
 
     True or False
     """
+    
+    masks = [
+        np.array([[0, 0], [0, 1]]),
+        np.array([[0, 1], [0, 0]]),
+        np.array([[1, 0], [0, 0]]),
+        np.array([[0, 0], [1, 0]])]
+    
+    for mask in masks:
+        # check if the subarray is equal to mask
+    
+        
+    
+    
+    
+    
     # ------ YOUR CODE HERE ------ #
 
 
