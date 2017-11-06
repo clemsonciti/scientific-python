@@ -117,3 +117,10 @@ def internal_match(a):
 
     # ---------------------------- #
 ```
+
+After writing your code,
+run `pytest` to see if it passes all your tests?
+
+* Did any tests fail?
+* How would you fix this?
+
