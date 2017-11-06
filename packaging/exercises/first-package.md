@@ -5,6 +5,9 @@ In this exercise, you will create a package called `micro`
 which can be installed with `pip`,
 and then imported from anywhere on your computer.
 
+We will develop this package to contain tools to analyze
+the microscopy data that we plotted during the warmup exercise.
+
 1. Create the following files and directories:
 
 ~~~
