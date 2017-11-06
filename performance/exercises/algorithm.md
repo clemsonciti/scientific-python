@@ -6,7 +6,7 @@ in our old version of `counting.py`.
 Looking back at the previous version of `counting.py`,
 we had the following implementations for the functions:
 
-```
+```python
 def external_match(a):
     masks = [np.array([[0, 0], [0, 1]]),
              np.array([[0, 0], [1, 0]]),

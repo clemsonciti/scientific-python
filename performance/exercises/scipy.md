@@ -9,7 +9,7 @@ to use the `scipy.ndimage.binary_hit_or_miss` function.
 1. In the original `counting.py`,
 replace the code for the function `count_objects` with the following:
 
-```
+```python
 def count_objects(img):
     E = external_matches(img)
     I = internal_matches(img)
@@ -18,7 +18,7 @@ def count_objects(img):
 
 2. Implement the functions `external_matches` and `internal_matches`:
 
-```
+```python
 def external_matches(img):
     masks = [np.array([[0, 0], [0, 1]]),
              np.array([[0, 0], [1, 0]]),
