@@ -1,5 +1,4 @@
-
-~~~
+```
 In [1]: from micro.counting import count_objects
 
 In [2]: import numpy as np
@@ -27,4 +26,4 @@ In [5]: %prun count_objects(img)
         1    0.000    0.000   18.650   18.650 {built-in method builtins.exec}
         1    0.000    0.000   18.650   18.650 <string>:1(<module>)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-~~~
+```
