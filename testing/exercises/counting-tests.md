@@ -70,7 +70,7 @@ For example, here is a test which checks that for an array of all 0s,
 `count_objects` returns 0:
 
 ```python
-def test_count_zero_objects()
+def test_count_zero_objects():
     img = np.array(
       [[ 0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.],
