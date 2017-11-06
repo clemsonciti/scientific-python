@@ -56,7 +56,7 @@ For example, if `img` is an array representing the above image,
 
 ```python
 >>> count_objects(img)
-Out [1]: 16
+16
 ```
 
 **Assumptions**:
@@ -76,7 +76,7 @@ def test_count_zero_objects()
        [ 0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.],
        [ 0.,  0.,  0.,  0.,  0.],
-       [ 0.,  0.,  0.,  0.,  0.]])
+       [ 0.,  0.,  0.,  0.,  0.]], dtype=np.int32)
     assert(count_objects(img) == 0)
 ```
 
