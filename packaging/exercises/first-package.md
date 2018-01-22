@@ -31,7 +31,8 @@ setup(name='example',
     packages=['example'],
     zip_safe=False)
 
-~~~{: .python}
+~~~
+{: .python}
 
 3. Now, from the top level `micro` directory, install the package using `pip`:
 
