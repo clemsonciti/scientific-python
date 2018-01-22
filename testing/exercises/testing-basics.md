@@ -3,7 +3,7 @@ In this exercise, you will write test cases for a function called
 `strflip, which *flips* (reverses) a given string.
 The function has already been written for you:
 
-~~~
+```python
 def strflip(s):
     """
     strflip: Flip a string
@@ -42,16 +42,15 @@ def strflip(s):
             break
 
     return flipped
-~~~
+```
 
 
 Write and run a few tests for the above function. Some example tests are given below:
 
-~~~
+```python
 assert(strflip('ab') == 'ba')
 assert(strflip('mario') == 'oiram')
-~~~
+```
 
 * Did any of your tests fail? How would you change the code to make those tests pass?
-* After making the changes to `strflip`, re-run your tests
 
