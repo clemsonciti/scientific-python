@@ -15,7 +15,7 @@ micro/
 ├── micro/
 │   ├── __init__.py
 ├── README.md
-├── LICENSE.md
+├── LICENSE.txt
 ├── setup.py
 ```
 
@@ -49,12 +49,16 @@ In [1]: import micro
 
 ```
 
-5. You should always also have a `README.md` and `LICENSE.md`:
+5. You should always have a `README.md` that contains (at the very least):
 
-* `LICENSE.md`: Explains if/how this software may be used by others. See for examples
-<https://choosealicense.com/> or <https://opensource.guide/legal/>.
+* The name and objectives of the project
+* How to install the project
+* If you want contributions or not
 
-* `README.md`: Explains what this sofware does, how to install/use it, etc.,
+6. In addition, you should always have a `LICENSE.md`
+that explains if/how this software may be used by others.
+Many open-source licenses are available to choose from:
+<https://choosealicense.com/licenses/>. Working in pairs, choose a license
+that you think would be appropriate for this work.
 
-6. Finally, upload to GitHub.
-
+7. Finally, upload your project to GitHub.
