@@ -21,7 +21,7 @@ micro/
 
 2. Add the following to `setup.py`:
 
-```
+```python
 from setuptools import setup
 
 setup(name='example',
@@ -33,8 +33,7 @@ setup(name='example',
     license='MIT',
     packages=['example'],
     zip_safe=False)
-~~~
-{: .python}
+```
 
 3. Now, from the top level `micro` directory, install the package using `pip`:
 
