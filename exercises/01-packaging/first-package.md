@@ -54,7 +54,7 @@ In [1]: import micro
 * How to install the project
 * If you want contributions or not
 
-6. In addition, you should always have a `LICENSE.md`
+6. In addition, you should always have a `LICENSE.txt`
 that explains if/how this software may be used by others.
 Many open-source licenses are available to choose from:
 <https://choosealicense.com/licenses/>. Working in pairs, choose a license
