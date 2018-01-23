@@ -69,5 +69,3 @@ for loop variables `i` and `j` has already been done.
 
 6. Profile the code to see how much (if any) performance improvement
 you get compared to the previous versions of `count_objects`.
-
-

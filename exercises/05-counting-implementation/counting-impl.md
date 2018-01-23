@@ -31,7 +31,7 @@ As a hint, you can use the `np.all` function
 to check for the equality of two numpy
 arrays:
 
-```
+```python
 # returns True if all elements of a are equal
 # to the corresponding elements of b.
 # returns False otherwise:

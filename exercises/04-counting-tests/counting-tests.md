@@ -80,7 +80,8 @@ def test_count_zero_objects():
     assert(count_objects(img) == 0)
 ```
 
-All tests shuold be placed in a file `test_counting.py`:
+All tests shuold be placed in a file `test_counting.py`,
+which is placed in the `test` directory shown below:
 
 ```shellsession
 micro/
@@ -89,6 +90,6 @@ micro/
 ├── README.md
 ├── LICENSE.md
 ├── setup.py
-└── tests
+└── tests/
     └── test_counting.py
 ```

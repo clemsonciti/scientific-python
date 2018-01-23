@@ -13,14 +13,14 @@ use `dtype=np.int32`.
 
 You can use the following magic command:
 
-```
-%timeit <python statement>
+```python
+In [1]: %timeit <python statement>
 ```
 
 to obtain the running time for that Python statement.
 
 Similarly, to obtain a profile, you can do:
 
-```
-%prun <python statement>
+```python
+In [2]: %prun <python statement>
 ```

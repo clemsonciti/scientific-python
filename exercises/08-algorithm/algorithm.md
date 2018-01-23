@@ -44,6 +44,4 @@ The numpy function `np.sum` may be useful here.
 * Make sure that all your tests still pass after making this change
 * Time the code using `%timeit`, and compare with your previous values:
 is the timing better than our initial implementation? Is it better
-than using `scipy.ndimage.binary_hit_or_miss`?
-
-
+than using `scipy.ndimage.measurements.label`?

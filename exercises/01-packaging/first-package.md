@@ -10,7 +10,7 @@ the microscopy data that we plotted during the warmup exercise.
 
 1. Create the following files and directories:
 
-```
+```shellsession
 micro/
 ├── micro/
 │   ├── __init__.py
@@ -35,15 +35,16 @@ setup(name='example',
     zip_safe=False)
 ```
 
-3. Now, from the top level `micro` directory, install the package using `pip`:
+3. Now, from the top level `micro` directory, install the package using `pip`
+on the command-line:
 
-```
+```shellsession
 $ pip install -e .
 ```
 
 4. Try to import the micro package from Python:
 
-```
+```python
 In [1]: import micro
 
 ```
