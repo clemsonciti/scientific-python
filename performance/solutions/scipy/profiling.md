@@ -5,9 +5,6 @@ In [2]: import numpy as np
 
 In [3]: img = np.loadtxt('01.txt', delimiter=',', dtype=np.int32)
 
-In [4]: count_objects(img)
-Out[4]: 16.0
-
-In [5]: %timeit count_objects(img)
-45 ms ± 295 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+In [4]: %timeit count_objects(img)
+1.53 ms ± 53.3 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 ```
