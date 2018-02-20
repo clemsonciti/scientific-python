@@ -1,4 +1,3 @@
-
 In this exercise,
 you will create a Cython externsion `counting.pyx`
 that provides the function `count_objects`.

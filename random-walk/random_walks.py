@@ -25,7 +25,6 @@ def plot_random_walk(num_steps):
         # -------------------
         pass
     plt.plot(y)
-    
 
 number_of_walks = 10
 number_of_steps = 100
